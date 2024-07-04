@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+/* 'Work Sans' */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* 'Exo 2' */
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* 'Bebas Neue' */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body {
+    background-color:#7adeff;
+    font-family:'Work Sans';
+}
+
+#principal {
+    color:#000000;
+    text-align:center;
+    font-family:'Bebas Neue';
+    font-size:3em;
+}
+
+h1 {
+    color:#256823;
+    font-size:2em;
+    font-family:'Exo 2';
+}
+
+h2 {
+    color:#06b400;
+    font-size:1.3em;
+}
+
+.iniciante {
+    color:rgb(0, 150, 7);
+}
+
+.intermediario {
+    color:rgb(155, 155, 28);
+}
+
+.avançado {
+    color:rgb(172, 0, 0);
+}

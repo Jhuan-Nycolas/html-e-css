@@ -2,12 +2,18 @@
 
 /* Fontes */
 
-/* Poppins */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;1,400;1,600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
 
 *{
     margin:0px;
     padding:0px;
+}
+
+:root{
+    --Poppins:'Poppins';
+    --Passion:'Passion One';
 }
 
 html, body{
@@ -24,10 +30,13 @@ header{
 header > h1{
     padding-top:50px;
     font-variant:small-caps;
+    font-family:var(--Passion);
+    font-size:10vw;
 }
 
 header > p{
     padding-bottom:50px;
+    font-family:Arial, Helvetica, sans-serif;
 }
 
 a{
@@ -37,16 +46,17 @@ a{
 }
 
 a:hover{
-    text-decoration:underline;
     color:rgb(107, 179, 242);
+    text-decoration:underline;
 }
 
 section{
-    font-family:poppins;
-    font-weight:400;
+    font-family:var(--Poppins);
+    font-style:italic;
+    font-weight:600;
     padding:10vh 0vh;
     line-height:2em;
-    font-size:18px;
+    font-size:3.3vw;
     padding-left:30px;
 }
 
@@ -62,7 +72,8 @@ section{
 
 .imagem > p{
     background-color:rgba(0, 0, 0, 0.455);
-    width:400px;
+    display:inline-block;
+    padding:10px;
 }
 
 footer{
@@ -70,4 +81,7 @@ footer{
     color:white;
     text-align:center;
     padding:10px;
+    font-family:var(--Poppins);
+    font-weight:400;
+    font-size:2.6vw;
 }
